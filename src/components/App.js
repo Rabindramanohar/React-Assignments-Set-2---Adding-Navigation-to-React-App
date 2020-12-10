@@ -9,8 +9,8 @@ import { BrowserRouter as Router, Switch, Route, useLocation } from 'react-route
 function LocationDisplay() {
     const location = useLocation();
     return(
-        <div data-testid="location-display">
-            <h1>{location.pathname}</h1>
+        <div data-testid="location-display"> 
+            {location.pathname}
         </div>
     )
 }
