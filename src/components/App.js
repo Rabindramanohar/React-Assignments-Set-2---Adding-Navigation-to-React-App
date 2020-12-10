@@ -10,7 +10,7 @@ function LocationDisplay() {
     const location = useLocation();
     return(
         <div data-testid="location-display">
-            <h3>{location.pathname}</h3>
+            <h1>{location.pathname}</h1>
         </div>
     )
 }
@@ -25,7 +25,7 @@ function App() {
                 <Switch>
                     <Route path="/" exact component={Home} />
                     <Route path="/about" exact component={About} />
-                    <Route path="/:id" component={Error} />
+                    <Route component={Error} />
                 </Switch>
             </Router>
         </div>
