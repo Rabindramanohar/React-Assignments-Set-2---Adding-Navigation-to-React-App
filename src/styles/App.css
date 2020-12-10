@@ -10,3 +10,22 @@ button{
     justify-content: center;
     align-items: center;
 }
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    min-height: 10vh;
+    background-color: #d7d7ec;
+    
+}
+
+.nav-links {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    list-style: none;
+    color: rgb(64, 71, 78);
+    font-size: medium;
+}
