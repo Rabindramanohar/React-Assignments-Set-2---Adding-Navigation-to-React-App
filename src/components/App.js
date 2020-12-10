@@ -21,12 +21,12 @@ function App() {
         <div id="main">
             <Router>
                 <Nav />
-                <LocationDisplay />
                 <Switch>
                     <Route path="/" exact component={Home} />
                     <Route path="/about" exact component={About} />
                     <Route component={Error} />
                 </Switch>
+                <LocationDisplay />
             </Router>
         </div>
     )
